@@ -1,0 +1,4 @@
+title: "Voting "
+serviceType: ClusterIP
+imageRepo: testacivic.azurecr.io/azvote
+demoAppUrl: "/"
