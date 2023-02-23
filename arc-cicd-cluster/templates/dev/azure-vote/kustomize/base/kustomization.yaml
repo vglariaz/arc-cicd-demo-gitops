@@ -5,8 +5,8 @@ namespace: dev
 
 images:
   - name: testacivic.azurecr.io/azvote/azure-vote-front
-    newTag: bd33c44f44aae85dea929ab398438f94f4bfda7c
+    newTag: f4ffcea9f9d8fa1e75884e8a48cb9b7691418a3d
   - name: testacivic.azurecr.io/azvote/azure-vote-back
-    newTag: bd33c44f44aae85dea929ab398438f94f4bfda7c
+    newTag: f4ffcea9f9d8fa1e75884e8a48cb9b7691418a3d
 resources:
   - manifests.yaml
