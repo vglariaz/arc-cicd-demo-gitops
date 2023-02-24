@@ -40,7 +40,7 @@ spec:
       - env:
         - name: ALLOW_EMPTY_PASSWORD
           value: "yes"
-        image: testacivic.azurecr.io/azvote/azure-vote-back:f4ffcea9f9d8fa1e75884e8a48cb9b7691418a3d
+        image: testacivic.azurecr.io/azvote/azure-vote-back:c2e5e0049a3d2eb435ba6c746b9ab24ff70d1a99
         name: azure-vote-back
         ports:
         - containerPort: 6379
@@ -69,7 +69,7 @@ spec:
           value: azure-vote-back
         - name: TITLE
           value: Voting
-        image: testacivic.azurecr.io/azvote/azure-vote-front:f4ffcea9f9d8fa1e75884e8a48cb9b7691418a3d
+        image: testacivic.azurecr.io/azvote/azure-vote-front:c2e5e0049a3d2eb435ba6c746b9ab24ff70d1a99
         name: azure-vote-front
         ports:
         - containerPort: 80
